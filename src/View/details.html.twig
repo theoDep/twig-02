@@ -1,0 +1,11 @@
+{% extends 'layout.html.twig' %}
+
+{% block title %}
+{{ parent() }} - Details
+{% endblock %}
+
+{% block content %}
+    {% include 'component/_navbar.html.twig' %}
+    <p> Hello from details </p>
+    <p> {{ contactEmail }} </p>
+{% endblock %}
